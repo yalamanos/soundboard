@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Rick and Morty Soundboard</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="keys">
+            <div data-keycode="65" class="key">
+                <p>A</p>
+                <p>Disqualified!</p>
+            </div>
+            <div data-keycode="83" class="key">
+                <p>S</p>
+                <p>That's retarded</p>
+            </div>
+            <div data-keycode="68" class="key">
+                <p>D</p>
+                <p>Show me <br> what you got!</p>
+            </div>
+            <div data-keycode="70" class="key">
+                <p>F</p>
+                <p>Whatever...</p>
+            </div>
+        </div>
+    </div>
+    <audio data-keycode="65" src="sound/disqualified.wav"></audio>
+    <audio data-keycode="83" src="sound/retarded.wav"></audio>
+    <audio data-keycode="68" src="sound/show_me.wav"></audio>
+    <audio data-keycode="70" src="sound/whatever.wav"></audio>
+    <script src="main.js"></script>
+</body>
+</html>
